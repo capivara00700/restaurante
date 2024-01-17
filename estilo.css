@@ -1,0 +1,112 @@
+html, body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: black;
+    font-family: ModernAntiqua-BookOblique;
+}
+
+@font-face{
+    font-family: "ModernAntiqua-BookOblique";
+    src: url("ModernAntiqua-BookOblique.ttf");
+}
+
+h1{
+    color: gold;
+    
+}
+
+/*Capa*/
+
+#paralax{
+    background: url("fotos/fundo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+#caixa_titulo{
+    position: absolute;
+    left: 0%;
+    top: 40%;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+#paralax_titulo{
+    background-color: #111;
+    padding: 18px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: gold;
+    text-transform: uppercase;
+}
+
+@media (max-width: 576px){
+    #paralax_titulo{
+        font-size: 20px;
+    }
+}
+
+#btn_custom{
+    padding: 10px 50px;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 2px solid orange;
+    color: gold;
+}
+
+#btn_custom:hover{
+background-color: orange;
+color: black;
+transition: 0.5s;
+}
+
+
+/*conteudo principal*/
+
+#conteudo{
+    color: rgb(150, 150, 150);
+    margin: 70px 40px 70px 40px;
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+/*rodapé*/
+
+footer{
+    color: gray;
+    background: rgb(29, 29, 29);
+    padding: 30px 30px 80px 30px;
+}
+
+#rodapé{
+    width: 50%;
+    height: 100%;
+    border-right: 2px solid black;
+    float: left;
+}
+
+#rodapé2{
+    text-align: left;
+    float: right;
+    width: 50%;
+}
+
+#rodapé2 ul{
+    list-style: none;
+    margin-top: 40px;
+}
+
+#rodapé2 li{
+    float: left;
+}
+
+#rodapé2 ul li a{ 
+    padding: 0px 5px;
+    text-decoration: none;
+    color: gray;
+}
